@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="loginApp">
+    <div class="container" ng-controller="loginController">
+		<form class="form-signin" role="form">
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<label for="inputEmail" class="sr-only">Email address</label>
+			<input type="email" ng-model="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" ng-model="inputPassword" class="form-control" placeholder="Password" required>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="submitLogin()">Sign in</button>
+		</form>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		<script src="loginApp.js"></script>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

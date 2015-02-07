@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Custom Fonts -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- AngularJS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>	
+
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body ng-app="mainApp">	
+	<!-- header navigation -->
+	<div ng-include="'header.html'"></div>
+	
+	<div class="container-fluid">
+		<div class="row">	
+			<!-- sidebar menu -->
+			<div ng-include="'sidebar.html'"></div>
+			<!-- main template -->
+			<div id="mainTemplate" class="col-md-10">
+				<div ng-view></div>
+			</div>
+		</div>
+	</div>
+	
+	
+    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="Chart.js"></script>
+	<script type="text/javascript" src="tc-angular-chartjs.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+</body>
+
+</html>

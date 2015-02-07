@@ -1,0 +1,68 @@
+{	
+	"data1" : [
+				[65, 59, 80, 81, 56, 55, 40],
+				[28, 48, 40, 19, 86, 27, 90]
+	],
+	"overview" : [{"label":"Support", "value":109, "director":"Zeus Jackson"}, 
+		          {"label":"Executive", "value":56, "director":"Leo Hyde"}, 
+		          {"label":"Finance", "value":104, "director":"Austin Sargent"},
+				  {"label":"HR", "value":157, "director":"Ali Benson"},
+				  {"label":"Marketing", "value":151, "director":"Davis Stuart"},
+				  {"label":"Operations", "value":50, "director":"Luke Clark"},
+				  {"label":"Sales", "value":104, "director":"Cooper Mcknight"},
+				  {"label":"Technology", "value":302, "director":"Felix Brooks"}
+	],
+	"hires" : {
+				"label":["Support", "Executive", "Finance", "HR", "Marketing", "Operations", "Sales", "Technology"],
+				"value":[109, 56, 104, 157, 151, 50, 104, 302]
+	},
+	"annualIncome" : {
+				"label":["2012", "2013", "2014"], 
+				"value":[120000, 174000, 200100]
+	},		
+	"salaryIncome" : [{"label":"AN1", "value":100000}, 
+		          {"label":"AN2", "value":120000}, 
+		          {"label":"DIR", "value":130000},
+				  {"label":"DR1", "value":80000},
+				  {"label":"DR2", "value":80000},
+				  {"label":"EXEC", "value":90000},
+				  {"label":"MGR", "value":150000},
+				  {"label":"VP", "value":200000}
+	],
+	"department" : [{"label":"Support", "value":10}, 
+		          {"label":"Executive", "value":5}, 
+		          {"label":"Finance", "value":10},
+				  {"label":"HR", "value":15},
+				  {"label":"Marketing", "value":15},
+				  {"label":"Operations", "value":5},
+				  {"label":"Sales", "value":10},
+				  {"label":"Technology", "value":30}
+	],
+	"salary": [{"label":"AN1", "value":30}, 
+		          {"label":"AN2", "value":20}, 
+		          {"label":"DIR", "value":10},
+				  {"label":"DR1", "value":8},
+				  {"label":"DR2", "value":8},
+				  {"label":"EXEC", "value":9},
+				  {"label":"MGR", "value":10},
+				  {"label":"VP", "value":5}
+	],
+	"age": [{"label":"20s", "value":30}, 
+		          {"label":"30s", "value":30}, 
+		          {"label":"40s", "value":20},
+				  {"label":"50s", "value":15},
+				  {"label":"60s", "value":5}
+	],
+	"location": [{"label":"Bay Area", "value":15}, 
+		          {"label":"LA", "value":12}, 
+		          {"label":"Seattle", "value":5},
+				  {"label":"NYC", "value":18},
+				  {"label":"Boston", "value":8},
+				  {"label":"Washington DC", "value":5},
+				  {"label":"Philadelphia", "value":9},
+				  {"label":"Chicago", "value":13},
+				  {"label":"Dallas", "value":7},
+				  {"label":"Miami", "value":7},
+				  {"label":"Others", "value":5}
+	]
+}

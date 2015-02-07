@@ -1,0 +1,56 @@
+<div class="container-fluid">
+	<div class="row row-eq-height">
+		<div class="panel panel-primary col-md-6" height="400" width="600">
+			<div class="panel-heading">
+				<h3 class="panel-title">Overview</h3>
+            </div>
+			<div class="panel-body">
+				<div class="flot-chart-content">
+					<table class="table table-bordered table-hover">
+						<thead>
+							<tr>
+								<td>Department</td>
+								<td>Number of Employees</td>
+								<td>Director</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="x in overviews | orderBy : 'label'">
+								<td>{{ x.label }}</td>
+								<td>{{ x.value }}</td>
+								<td>{{ x.director }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- "overview" -->
+			</div>
+		</div>
+		<div class="panel panel-primary col-md-6">
+			<div class="panel-heading">
+				<h3 class="panel-title">Hires of Employees by Department</h3>
+            </div>
+			<div class="panel-body">
+				<div class="flot-chart-content"><canvas id="hiresChart"></canvas>
+				</div><!-- "overview" -->
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="panel panel-primary col-md-6">
+			<div class="panel-heading">
+				<h3 class="panel-title">Salary by Position Grade</h3>
+            </div>
+			<div class="panel-body">
+				<div class="flot-chart-content" id="salaryChart"></div><!-- "salary" -->
+			</div>
+		</div>
+		<div class="panel panel-primary col-md-6">
+			<div class="panel-heading">
+				<h3 class="panel-title">Annual Income by Year</h3>
+            </div>
+			<div class="panel-body">
+				<div class="flot-chart-content"><canvas id="annualIncomeChart"></canvas></div><!-- "annualIncome" -->		
+			</div>
+		</div>			
+	</div>
+</div>

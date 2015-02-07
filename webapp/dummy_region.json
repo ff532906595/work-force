@@ -1,0 +1,23 @@
+[ 
+	{ "Region": "Arizona", "Number": 861 }, 
+	{ "Region": "Alabama", "Number": 885 }, 
+	{ "Region": "Kansas", "Number": 112 }, 
+	{ "Region": "Texas", "Number": 830 }, 
+	{ "Region": "Maine", "Number": 143 },
+	{ "Region": "Minnesota", "Number": 51 }, 
+	{ "Region": "Ohio", "Number": 370 }, 
+	{ "Region": "Colorado", "Number": 875 }, 
+	{ "Region": "Missouri", "Number": 213 }, 
+	{ "Region": "Georgia", "Number": 278 }, 
+	{ "Region": "Kentucky", "Number": 709 }, 
+	{ "Region": "Nevada", "Number": 375 }, 
+	{ "Region": "Delaware", "Number": 137 }, 
+	{ "Region": "Illinois", "Number": 335 }, 
+	{ "Region": "Oregon", "Number": 139 }, 
+	{ "Region": "Virginia", "Number": 431 }, 
+	{ "Region": "Oklahoma", "Number": 79 },
+	{ "Region": "Iowa", "Number": 91 }, 
+	{ "Region": "Louisiana", "Number": 647 }, 
+	{ "Region": "Massachusetts", "Number": 455 }, 
+	{ "Region": "Washington", "Number": 164 }
+]
